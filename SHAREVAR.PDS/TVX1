@@ -91,9 +91,9 @@ exit
   |            list is a list, enclosed in quotes, of REXX     |
   |                    variables to be Put (shared).           |
   |                                                            |
-  | Examples:  rc = sharevar('put' 'myispfvar' ,               |
+  | Examples:  rc = sharevar('put' 'ispfvar' ,                 |
   |                          'userid var1 var2 stem1. stem2.') |
-  |            rc = sharevar('get' 'myisfvar')                 |
+  |            rc = sharevar('get' 'ispfvar')                  |
   |                                                            |
   | Usage Notes: This code must be copied into each of the     |
   |              REXX execs in which it will be used           |
